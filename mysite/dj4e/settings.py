@@ -36,6 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'home',
     'ads',
+    'unesco.apps.UnescoConfig',
+    'django_extensions',
     "social_django",
     'crispy_forms',
 ]
