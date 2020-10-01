@@ -22,7 +22,7 @@ SECRET_KEY = '=o(+)#v*z168p)e_(^%w_dhi^pu%vpro3&n)%#lrc=5$jjvg8!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['sz619.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -34,8 +34,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
     'home',
     'ads',
+    'well.apps.WellConfig',
     'unesco.apps.UnescoConfig',
     'django_extensions',
     "social_django",
